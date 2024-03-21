@@ -14,9 +14,9 @@ function Header() {
       />
       <div>
           <Link to='/' ><button>Home</button> </Link>
-          <Link to='aboutus' >  <button>about</button> </Link>
-          <Link to='trackrecord' >  <button>TrackRecord</button> </Link>
-          <Link to='smecorner' >  <button>smecorner</button> </Link>        
+          <Link to='/aboutus' >  <button>about</button> </Link>
+          <Link to='/trackrecord' >  <button>TrackRecord</button> </Link>
+          <Link to='/smecorner' >  <button>smecorner</button> </Link>        
       </div>
       <div>
         <button>Login</button>
