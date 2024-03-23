@@ -7,13 +7,14 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="App-header">
-      <div>
+      <div><Link to='/' >
       <img
         src={appLogo}
          style={{ width: "100%", height: "50px" }}
         className="App-logo"
         alt="Logo"
-      />
+        
+      /> </Link>
       </div>
       <div className="mainnav">
           <Link to='/' > <button className="headnav">Home</button> </Link>
