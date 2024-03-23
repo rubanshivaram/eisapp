@@ -1,16 +1,11 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   padding: 20px;
 }
-
-.App-logo {
-  /* height: 40vmin; */
-  pointer-events:all;
+.maindiv{
+  height: 70vh;
+  width: 100%;
 }
-
-
-
-
 
 .App-link {
   color: #61dafb;

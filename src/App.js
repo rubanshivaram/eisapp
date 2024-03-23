@@ -9,16 +9,15 @@ import Smecorner from './Pages/smecorner/smecorner';
 
 function App() {
   return (
-    <div className="App">
-     
+    <div className="App">   
 
      
-     <BrowserRouter>
+     <BrowserRouter basename='/'>
      <Routes>
-      <Route path='' element={< Home/>} />
-      <Route path='aboutus' element={<Aboutus /> } />
-      <Route path='trackrecord' element={<TrackRecord /> } />
-      <Route path='smecorner' element={<Smecorner /> } />
+      <Route path='/' element={< Home/>} />
+      <Route path='/aboutus' element={<Aboutus /> } />
+      <Route path='/trackrecord' element={<TrackRecord /> } />
+      <Route path='/smecorner' element={<Smecorner /> } />
 
 
       
