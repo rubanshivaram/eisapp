@@ -71,6 +71,18 @@ function Footer() {
         Therefore, Ease Investments Solution doesn’t bear any responsibility for any trading losses you might incur as a result of using this data.
         </p>
       </div>
+      <div className="footr1">
+      <div>email</div>
+      <div>phone number</div>
+      </div>
+      <hr></hr>
+      <div className="footr1">
+        <div>certificate 1</div>
+        <div>certificate 2</div>
+        <div>certificate 3</div>
+      </div>
+      <div style={{textAlign:'center'}}>
+      <small >© 2022 Ease Investments Solution. All Right Reserved.</small></div>
     </div>
   );
 }
