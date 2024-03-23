@@ -15,11 +15,11 @@ function Header() {
         alt="Logo"
       />
       </div>
-      <div>
-          <Link to='/' ><button>Home</button> </Link>
-          <Link to='/aboutus' >  <button>about</button> </Link>
-          <Link to='/trackrecord' >  <button>TrackRecord</button> </Link>
-          <Link to='/smecorner' >  <button>smecorner</button> </Link>        
+      <div className="mainnav">
+          <Link to='/' > <button className="headnav">Home</button> </Link>
+          <Link to='/aboutus' >  <button className="headnav">about</button> </Link>
+          <Link to='/trackrecord'>  <button className="headnav">TrackRecord</button> </Link>
+          <Link to='/smecorner' >  <button className="headnav">smecorner</button> </Link>        
       </div>
       <div className="head-right">
         <div className="loginbutton">Login</div>
