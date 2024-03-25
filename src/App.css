@@ -1,6 +1,8 @@
 .App {
-  /* text-align: center; */
-  padding: 20px;
+  text-align: center;
+  padding: 10px;
+  width:100%vw;
+  line-height: 2rem;
 }
 .maindiv{
   /* height: 70vh; */
