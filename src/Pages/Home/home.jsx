@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
+import Subplan from "../Home/subplan"
 
 function home() {
   return (
@@ -14,6 +15,7 @@ function home() {
           consectetur quisquam sed ipsam quis at quas, nemo quibusdam repellat?
           Ducimus, ex?{" "}
         </p>
+        <Subplan/>
       </div>
       <Footer />
     </div>
