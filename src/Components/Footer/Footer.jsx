@@ -50,13 +50,13 @@ function Footer() {
             </a>
           </div>
           <div className="mx-2">
-            <a href="https://www.youtube.com/@vistaedits8287">{youtubeicon}</a>
+            <a href="https://www.youtube.com/">{youtubeicon}</a>
           </div>
           <div className="mx-2">
-            <a href="https://www.instagram.com/vista_editz/">{instaIcon}</a>
+            <a href="https://www.instagram.com/easeinvsolution/">{instaIcon}</a>
           </div>
           <div className="mx-2">
-            <a href="https://www.linkedin.com/in/aszen-technologies/">
+            <a href="https://www.linkedin.com/in/">
               {linkedin}
             </a>
           </div>

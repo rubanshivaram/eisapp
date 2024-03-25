@@ -1,8 +1,12 @@
 .subplan1{
     font-size: 60px;
+    color: blue;
+    
+    
 }
 .subplan2{
     font-size: 25px;
+    color: blueviolet;
 }
 .subplan_card{
     margin: auto;
@@ -66,7 +70,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     font-size: 19px;
-    font-weight: bolder;
+    /* font-weight: bolder; */
 }
 .subplan_login{
     height: 40px;
@@ -79,7 +83,8 @@
 }
 .subplan_imgcard2{
     height: 50px;
-
+    width: -webkit-fill-available;
+    padding: 5px;
 }
 .subplan_vip img{
     height: 15px;
