@@ -8,6 +8,7 @@
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
+  position:sticky;
 }
 .head-right {
   display: flex;
@@ -16,9 +17,10 @@
   gap: 20px;
 }
 .loginbutton {
-  background-color: rgb(255, 43, 36);
-  font-size: 15px;
-  padding: 10px 20px;
+  background-color: rgb(233, 79, 74);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 30px;
   border-radius: 10000px;
   box-shadow: rgba(255, 255, 255, 0.15) 0px 0px 0px 2px;
   cursor: pointer;  
@@ -26,7 +28,7 @@
 }
 .stocksbutton {
   background-color: rgb(36, 113, 255);
-  font-size: 15px;
+  font-size: 18px;
   padding: 10px 20px;
   border-radius:10000px;
   box-shadow: rgba(255, 255, 255, 0.15) 0px 0px 0px 2px;

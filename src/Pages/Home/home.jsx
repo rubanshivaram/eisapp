@@ -13,11 +13,13 @@ function home() {
       <Header />
       <div className="maindiv">
         <div style={{padding:'1rem'}}>
-        <button className="sebino">SEBI Registered:xxxxxx</button>
+        <button className="sebino">SEBI Registered:xxxxxxx</button>
         </div>
 
         <div className='carousalitems'>
+
           <Carousel fade>
+
             <Carousel.Item interval={2000}>
               <img
                 className='sliderimg'
@@ -34,6 +36,9 @@ function home() {
               />
               </Carousel.Item>
               </Carousel>
+              <div className="marqueclass"> 
+                <marquee>Ease Investment Solutions </marquee></div>
+
               </div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
