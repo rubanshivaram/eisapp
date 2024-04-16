@@ -7,7 +7,6 @@ import Footer from '../../Components/Footer/Footer';
 
 function home() {
   return (
-   
     <div>
       < Header />
       <div>
@@ -27,7 +26,7 @@ function home() {
         <Footer/>
     </div>
     </div>
-  )
+  );
 }
 
-export default home
+export default home;

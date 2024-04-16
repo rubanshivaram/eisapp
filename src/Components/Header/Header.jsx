@@ -3,24 +3,30 @@ import appLogo from "../../Assets/images/Logo.jpg";
 import  "./Header.css"
 import { Link } from "react-router-dom";
 
+
 function Header() {
   return (
     <div className="App-header">
+      <div><Link to='/' >
       <img
         src={appLogo}
-         style={{ width: "25%", height: "50px" }}
+         style={{ width: "100%", height: "50px" }}
         className="App-logo"
         alt="Logo"
-      />
-      <div>
-          <Link to='/' ><button>Home</button> </Link>
-          <Link to='aboutus' >  <button>about</button> </Link>
-          <Link to='trackrecord' >  <button>TrackRecord</button> </Link>
-          <Link to='smecorner' >  <button>smecorner</button> </Link>        
+        
+      /> </Link>
       </div>
-      <div>
-        <button>Login</button>
-        <button> Stocks to buy</button>
+      <div className="mainnav">
+          <Link to='/' > <button className="headnav">Home</button> </Link>
+          <Link to='/aboutus' >  <button className="headnav">about</button> </Link>
+          <Link to='/trackrecord'>  <button className="headnav">TrackRecord</button> </Link>
+          <Link to='/smecorner' >  <button className="headnav">smecorner</button> </Link>        
+      </div>
+      <div className="head-right">
+        <div className="loginbutton">Login</div>
+        <div className="stocksbutton"> Stocks to buy</div>
+        
+        
       </div>
     </div>
   );

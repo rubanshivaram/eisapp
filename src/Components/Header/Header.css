@@ -1,10 +1,72 @@
 .App-header {
-    /* background-color: #282c34; */
-    /* min-height: 100vh; */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-between;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
+  /* background-color: #282c34; */
+  /* min-height: 100vh; */
+  display: flex;
+  width:100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position:sticky;
+}
+.head-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.loginbutton {
+  background-color: rgb(233, 79, 74);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 30px;
+  border-radius: 10000px;
+  box-shadow: rgba(255, 255, 255, 0.15) 0px 0px 0px 2px;
+  cursor: pointer;  
+  
+}
+.stocksbutton {
+  background-color: rgb(36, 113, 255);
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius:10000px;
+  box-shadow: rgba(255, 255, 255, 0.15) 0px 0px 0px 2px;
+  cursor: pointer;
+}
+
+.mainnav{
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  color: inherit;
+  margin:0px;
+  list-style: none;
+}
+.headnav{
+  box-sizing: content-box;
+  /* color: var(--nextui-colors-text); */
+  font-size: 16px;
+  background: transparent;
+  border:none;
+  
+  font-weight: 700;
+  text-transform: none;
+  line-height: 2;
+  text-rendering: geometricprecision;
+  -webkit-tap-highlight-color: transparent;
+  padding: 0%;
+  margin: 0%;
+  /* text-underline-position: below;
+  text-decoration: underline;
+  text-underline-offset: 1rem; */
+  cursor: pointer;
+}
+.headnav:hover{
+  border-bottom: 3px solid blue;
+}
+

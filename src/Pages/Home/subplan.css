@@ -1,0 +1,137 @@
+.subplan1{
+    font-size: 60px;
+    color: blue;
+    
+    
+}
+.subplan2{
+    font-size: 25px;
+    color: blueviolet;
+}
+.subplan_card{
+    margin: auto;
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.subplan_card1{
+    height: 51vh;
+    border-radius: 20px;
+    border: 5px solid rgb(175, 198, 49);
+    width: 25%;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subplan_card2{
+    height: 90vh;
+    width: 28%;
+    border-radius: 10px;
+    background-color: rgb(30, 117, 6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+.subplan_card3{
+    height: 51vh;
+    border-radius: 20px;
+    border: 5px solid rgb(108, 174, 229);
+    width: 25%;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: bisque; */
+}
+.subplan_img{
+    height: 60px;
+    width: 80%;
+}
+.subplan_basic li{
+    list-style-type: none;    
+}
+.subplan_basic img{
+    height: 15px;
+}
+.subplan_basic{
+    height: 220px;
+    width: 80%;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 19px;
+    /* font-weight: bolder; */
+}
+.subplan_login{
+    height: 40px;
+    width: 40%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: greenyellow;
+}
+.subplan_imgcard2{
+    height: 50px;
+    width: -webkit-fill-available;
+    padding: 5px;
+}
+.subplan_vip img{
+    height: 15px;
+}
+.subplan_vip li{
+    list-style-type: none
+}
+.subplan_vip{
+    height: 300px;
+    width: 80%;
+    font-size: 20px;
+    font-weight: bold;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.subplan_card2 button{
+    height: 40px;
+    width: 70%;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: orange;
+}
+.subplan_card2 h3{
+    font-size: 25px;
+}
+.subplan_card2 p{
+    font-size: 20px;
+}
+.subplan_small li{
+    list-style-type: none;    
+}
+.subplan_small img{
+    height: 15px;
+}
+.subplan_small{
+    height: 220px;
+    width: 80%;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 19px;
+    font-weight: bolder;
+}
