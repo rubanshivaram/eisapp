@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../../Components/Header/Header";
+import Subplan from "../../Components/Subplan/subplan";
 
 function aboutus() {
   return (
@@ -25,7 +26,12 @@ function aboutus() {
         <li> Ease Investments Solution or its employees would never call you and demand for any kind of sensitive details such as demat credentials or unsolicited trading advices You can report such Calls at support@easeinvsolution.com or 80-49587414.</li>
         <li> Ease Investments Solution would never send you any small cap/penny stocks tip. So if you receive any SMS, Call or Mail regarding any such stock tips, kindly report at 80-49587414.</li>
       </ol>
+
+      <div>
+        <Subplan/>
+      </div>
     </div>
+
   );
 }
 
