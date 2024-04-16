@@ -1,90 +1,47 @@
-import React from "react";
-import logo from "../../Assets/images/Logo.jpg";
-import "./Footer.css";
-import { Link } from "react-router-dom";
-import {
-  facebookicon,
-  youtubeicon,
-  instaIcon,
-  linkedin,
-} from "../../Assets/icons";
+import React from 'react'
+import './Footer.css'
+import appLogo from "../../Assets/images/Logo.jpg";
 
 function Footer() {
   return (
-    <div className="footer">
-      <div className="footr1">
-        <div>
-          <img
-            src={logo}
-            alt="logo"
-            style={{ width: "100%", height: "50px" }}
-          />
-        </div>
+    <>
+    <div className='footer'>
+        <div className='footer1'>
+          <div className='footer_head1'>
+            <img src={appLogo } className='footer-img'/>
+          </div>
+          <div className='footer_head2'>
+            <li>Terms & Conditions</li>
+            <li>Disclosures</li>
+            <li>Investor Charter</li>
+            <li>Complaints</li>
+            <li>Privacy Policy</li>
 
-        <div>
-          <Link to="/">
-            <button className="footnav">Terms and conditions</button>{" "}
-          </Link>
-          <Link to="/aboutus">
-            {" "}
-            <button className="footnav">Disclosures</button>{" "}
-          </Link>
-          <Link to="/trackrecord">
-            {" "}
-            <button className="footnav">Investor Charter</button>{" "}
-          </Link>
-          <Link to="/smecorner">
-            {" "}
-            <button className="footnav">Complaints</button>{" "}
-          </Link>
-          <Link to="/smecorner">
-            {" "}
-            <button className="footnav">Privacy Policy</button>{" "}
-          </Link>
-        </div>
-
-        <div className="footr1">
-          <div className="mx-2">
-            <a href="https://www.facebook.com/p/Vista-editz-100064031984655/">
-              {facebookicon}
-            </a>
           </div>
-          <div className="mx-2">
-            <a href="https://www.youtube.com/">{youtubeicon}</a>
-          </div>
-          <div className="mx-2">
-            <a href="https://www.instagram.com/easeinvsolution/">{instaIcon}</a>
-          </div>
-          <div className="mx-2">
-            <a href="https://www.linkedin.com/in/">
-              {linkedin}
-            </a>
+          <div className='footer_head3'>
+            <li><img src='https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/facebook-64.png'/></li>
+            <li><img src='https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-64.png'/></li>
+            <li><img src='https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_linkedin-64.png'/></li>
+            <li><img src='https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_twitter-64.png'/></li>
+            <li><img src='https://cdn2.iconfinder.com/data/icons/social-media-2420/512/Telegram-64.png'/></li>
           </div>
         </div>
-      </div>
-      <div >
-        <p >
-        <b>Disclaimer :</b> There is no guarantee of profits or no exceptions from losses. 
-        The investment advice provided is solely the personal views of the research team. 
-        Ease Investments Solution will not accept any liability for loss or damage as a result of reliance on the information contained within this website including data, quotes, charts and buy/sell signals. 
-        Please be fully informed regarding the risks and costs associated with trading the financial markets, it is one of the riskiest investment forms possible.
-        Therefore, Ease Investments Solution doesn’t bear any responsibility for any trading losses you might incur as a result of using this data.
-        </p>
-      </div>
-      <div className="footr1">
-      <div>email</div>
-      <div>phone number</div>
-      </div>
-      <hr></hr>
-      <div className="footr1">
-        <div>certificate 1</div>
-        <div>certificate 2</div>
-        <div>certificate 3</div>
-      </div>
-      <div style={{textAlign:'center'}}>
-      <small >© 2022 Ease Investments Solution. All Right Reserved.</small></div>
+        <div className='footer2'>
+          <p>Kamayakya Wealth Management Pvt. Ltd makes no warranties or representations, express or implied, on products and services offered through the platform. It accepts no liability for any damages or losses, however, caused in connection with the use of, or on the reliance of its research and recommendation services. Past performance is not indicative of future returns. Please consider your specific investment requirements, risk tolerance, goal, time frame, risk and reward balance and the cost associated with the investment before choosing a fund, or designing a portfolio that suits your needs. Performance and returns of any investment portfolio can neither be predicted nor guaranteed.</p>
+        </div>
+        <div className='footer3'>
+          <div className='footer-end1'>
+            <img src='https://cdn3.iconfinder.com/data/icons/essential-pack-2/48/8-Email-256.png'/>
+            <p>:contact@kamayakya.com</p>
+          </div>
+          <div className='footer-end2'>
+            <img src='https://cdn4.iconfinder.com/data/icons/communication-163/32/phone-64.png'/>
+            <p>: (+91)9175939641</p>
+          </div>
+        </div>
     </div>
-  );
+    </>
+  )
 }
 
 export default Footer;
